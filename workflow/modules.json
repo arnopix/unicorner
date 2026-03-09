@@ -12,7 +12,7 @@
     {
       "id": 0,
       "name": "Discovery & Validation",
-      "status": "IN_PROGRESS",
+      "status": "COMPLETED",
       "modules": [
         {
           "id": "0.1",
@@ -62,17 +62,17 @@
         {
           "id": "0.4",
           "name": "Validation rapide",
-          "status": "NOT_STARTED",
-          "progress": 0,
+          "status": "COMPLETED",
+          "progress": 100,
           "dependencies": ["0.3"],
           "subtasks": [
-            { "id": "0.4.1", "name": "Landing page de test", "status": "NOT_STARTED" },
-            { "id": "0.4.2", "name": "Script interviews", "status": "NOT_STARTED" },
-            { "id": "0.4.3", "name": "Questionnaire validation", "status": "NOT_STARTED" },
-            { "id": "0.4.4", "name": "Métriques validation", "status": "NOT_STARTED" },
-            { "id": "0.4.5", "name": "Go/No-Go framework", "status": "NOT_STARTED" }
+            { "id": "0.4.1", "name": "Landing page de test", "status": "COMPLETED", "completed_at": "2026-03-09T16:00:00Z" },
+            { "id": "0.4.2", "name": "Script interviews", "status": "COMPLETED", "completed_at": "2026-03-09T16:00:00Z" },
+            { "id": "0.4.3", "name": "Questionnaire validation", "status": "COMPLETED", "completed_at": "2026-03-09T16:00:00Z" },
+            { "id": "0.4.4", "name": "Métriques validation", "status": "COMPLETED", "completed_at": "2026-03-09T16:00:00Z" },
+            { "id": "0.4.5", "name": "Go/No-Go framework", "status": "COMPLETED", "completed_at": "2026-03-09T16:00:00Z" }
           ],
-          "artefacts": ["validation/landing/", "docs/interview-script.md", "docs/validation-results.md"]
+          "artefacts": ["validation/landing/page.tsx", "docs/interview-script.md", "docs/validation-questionnaire.md", "docs/validation-results.md"]
         }
       ]
     },

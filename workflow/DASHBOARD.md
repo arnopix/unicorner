@@ -1,8 +1,8 @@
 # UNICORNER — Dashboard de Suivi
 
 **Projet :** Service de facturation pour freelances (FR, B2B)
-**Démarré le :** 2026-03-09
-**Dernière mise à jour :** 2026-03-09T15:00:00Z
+**Demarre le :** 2026-03-09
+**Derniere mise a jour :** 2026-03-09T16:00:00Z
 
 ---
 
@@ -10,51 +10,51 @@
 
 | Phase | Nom | Modules | Progression | Statut |
 |-------|-----|---------|-------------|--------|
-| 0 | Discovery & Validation | 4 | ~75% | IN_PROGRESS |
-| 1 | Identité & Branding | 4 | 0% | NOT_STARTED |
+| 0 | Discovery & Validation | 4 | 100% | COMPLETED |
+| 1 | Identite & Branding | 4 | 0% | NOT_STARTED |
 | 2 | Fondations Juridiques | 6 | 0% | NOT_STARTED |
 | 3 | Infrastructure & Architecture | 5 | 0% | NOT_STARTED |
-| 4 | Développement Produit (MVP) | 11 | 0% | NOT_STARTED |
+| 4 | Developpement Produit (MVP) | 11 | 0% | NOT_STARTED |
 | 5 | Backoffice & Admin | 6 | 0% | NOT_STARTED |
 | 6 | Contenu & SEO | 5 | 0% | NOT_STARTED |
 | 7 | Go-To-Market | 7 | 0% | NOT_STARTED |
 | 8 | Lancement & Distribution | 3 | 0% | NOT_STARTED |
 | 9 | Post-Launch & Growth | 4 | 0% | NOT_STARTED |
 
-**Total : 55 modules | 336 sous-tâches | ~5% complété (3/55 modules)**
+**Total : 55 modules | 336 sous-taches | ~7% complete (4/55 modules)**
 
 ---
 
-## Détail par Phase
+## Detail par Phase
 
-### Phase 0 — Discovery & Validation
+### Phase 0 — Discovery & Validation (COMPLETED)
 - [x] 0.1 Analyse de marche — COMPLETED (market-analysis.md, competitors.md, personas.md)
 - [x] 0.2 Value Proposition Design — COMPLETED (value-proposition.md, pitch-deck-draft.md)
 - [x] 0.3 Business Model Canvas — COMPLETED (business-model.md, pricing-strategy.md, unit-economics.md)
-- [ ] 0.4 Validation rapide
+- [x] 0.4 Validation rapide — COMPLETED (landing/page.tsx, interview-script.md, validation-questionnaire.md, validation-results.md)
 
-### Phase 1 — Identité & Branding
+### Phase 1 — Identite & Branding
 - [ ] 1.1 Naming
 - [ ] 1.2 Achat domaines & Setup DNS
-- [ ] 1.3 Identité visuelle
+- [ ] 1.3 Identite visuelle
 - [ ] 1.4 Tone of Voice & Copywriting Guidelines
 
 ### Phase 2 — Fondations Juridiques
 - [ ] 2.1 Structure juridique
 - [ ] 2.2 CGV
 - [ ] 2.3 CGU
-- [ ] 2.4 Politique de Confidentialité & RGPD
+- [ ] 2.4 Politique de Confidentialite & RGPD
 - [ ] 2.5 Contrats & Templates
-- [ ] 2.6 Mentions Légales
+- [ ] 2.6 Mentions Legales
 
 ### Phase 3 — Infrastructure & Architecture
 - [ ] 3.1 Architecture technique
 - [ ] 3.2 Setup projet
 - [ ] 3.3 CI/CD Pipeline
 - [ ] 3.4 Environnements
-- [ ] 3.5 Observabilité
+- [ ] 3.5 Observabilite
 
-### Phase 4 — Développement Produit (MVP)
+### Phase 4 — Developpement Produit (MVP)
 - [ ] 4.1 Authentification & Utilisateurs
 - [ ] 4.2 Multi-tenancy & Organisations
 - [ ] 4.3 Core Features
@@ -105,11 +105,13 @@
 ---
 
 ## Blockers Actifs
-- Build Vercel en erreur : Root Directory doit être configuré sur `app`
+- Build Vercel en erreur : Root Directory doit etre configure sur `app`
 
 ## Notes
 - Projet initialise le 2026-03-09
 - Module 0.1 (Analyse de marche) complete le 2026-03-09
 - Module 0.2 (Value Proposition Design) complete le 2026-03-09 — USP : API-first, conformite e-facture native, UX premium
 - Module 0.3 (Business Model Canvas) complete le 2026-03-09 — BMC 9 blocs, pricing freemium (0/9,90/19,90), unit economics (LTV/CAC 5x, break-even M9-M10)
-- Prochain module : 0.4 (Validation rapide)
+- Module 0.4 (Validation rapide) complete le 2026-03-09 — Landing page waitlist, guide interview 24 questions, questionnaire 20 questions (Likert + Van Westendorp), framework Go/No-Go avec seuils quantifies
+- **Phase 0 (Discovery & Validation) COMPLETEE le 2026-03-09**
+- Prochain module : 1.1 (Naming)
