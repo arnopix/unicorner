@@ -1,0 +1,690 @@
+{
+  "project": {
+    "name": "",
+    "description": "",
+    "target_market": "",
+    "business_model": "",
+    "language": "",
+    "created_at": "",
+    "status": "NOT_STARTED"
+  },
+  "phases": [
+    {
+      "id": 0,
+      "name": "Discovery & Validation",
+      "status": "NOT_STARTED",
+      "modules": [
+        {
+          "id": "0.1",
+          "name": "Analyse de marché",
+          "status": "NOT_STARTED",
+          "progress": 0,
+          "dependencies": [],
+          "subtasks": [
+            { "id": "0.1.1", "name": "Recherche concurrentielle", "status": "NOT_STARTED" },
+            { "id": "0.1.2", "name": "Analyse des tendances", "status": "NOT_STARTED" },
+            { "id": "0.1.3", "name": "Estimation TAM/SAM/SOM", "status": "NOT_STARTED" },
+            { "id": "0.1.4", "name": "Identification personas", "status": "NOT_STARTED" },
+            { "id": "0.1.5", "name": "Benchmark prix", "status": "NOT_STARTED" }
+          ],
+          "artefacts": ["docs/market-analysis.md", "docs/competitors.md", "docs/personas.md"]
+        },
+        {
+          "id": "0.2",
+          "name": "Value Proposition Design",
+          "status": "NOT_STARTED",
+          "progress": 0,
+          "dependencies": ["0.1"],
+          "subtasks": [
+            { "id": "0.2.1", "name": "Canvas proposition de valeur", "status": "NOT_STARTED" },
+            { "id": "0.2.2", "name": "Jobs-to-be-done", "status": "NOT_STARTED" },
+            { "id": "0.2.3", "name": "Pain points / Gains mapping", "status": "NOT_STARTED" },
+            { "id": "0.2.4", "name": "USP", "status": "NOT_STARTED" },
+            { "id": "0.2.5", "name": "Elevator pitches", "status": "NOT_STARTED" }
+          ],
+          "artefacts": ["docs/value-proposition.md", "docs/pitch-deck-draft.md"]
+        },
+        {
+          "id": "0.3",
+          "name": "Business Model Canvas",
+          "status": "NOT_STARTED",
+          "progress": 0,
+          "dependencies": ["0.1", "0.2"],
+          "subtasks": [
+            { "id": "0.3.1", "name": "9 blocs BMC", "status": "NOT_STARTED" },
+            { "id": "0.3.2", "name": "Revenue streams", "status": "NOT_STARTED" },
+            { "id": "0.3.3", "name": "Pricing strategy", "status": "NOT_STARTED" },
+            { "id": "0.3.4", "name": "Cost structure", "status": "NOT_STARTED" },
+            { "id": "0.3.5", "name": "Unit economics", "status": "NOT_STARTED" }
+          ],
+          "artefacts": ["docs/business-model.md", "docs/pricing-strategy.md", "docs/unit-economics.md"]
+        },
+        {
+          "id": "0.4",
+          "name": "Validation rapide",
+          "status": "NOT_STARTED",
+          "progress": 0,
+          "dependencies": ["0.3"],
+          "subtasks": [
+            { "id": "0.4.1", "name": "Landing page de test", "status": "NOT_STARTED" },
+            { "id": "0.4.2", "name": "Script interviews", "status": "NOT_STARTED" },
+            { "id": "0.4.3", "name": "Questionnaire validation", "status": "NOT_STARTED" },
+            { "id": "0.4.4", "name": "Métriques validation", "status": "NOT_STARTED" },
+            { "id": "0.4.5", "name": "Go/No-Go framework", "status": "NOT_STARTED" }
+          ],
+          "artefacts": ["validation/landing/", "docs/interview-script.md", "docs/validation-results.md"]
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Identité & Branding",
+      "status": "NOT_STARTED",
+      "modules": [
+        {
+          "id": "1.1",
+          "name": "Naming",
+          "status": "NOT_STARTED",
+          "progress": 0,
+          "dependencies": ["0.4"],
+          "subtasks": [
+            { "id": "1.1.1", "name": "Génération de noms", "status": "NOT_STARTED" },
+            { "id": "1.1.2", "name": "Vérification domaines", "status": "NOT_STARTED" },
+            { "id": "1.1.3", "name": "Vérification marques", "status": "NOT_STARTED" },
+            { "id": "1.1.4", "name": "Vérification réseaux sociaux", "status": "NOT_STARTED" },
+            { "id": "1.1.5", "name": "Vérification linguistique", "status": "NOT_STARTED" },
+            { "id": "1.1.6", "name": "Scoring shortlist", "status": "NOT_STARTED" },
+            { "id": "1.1.7", "name": "Décision finale", "status": "NOT_STARTED" }
+          ],
+          "artefacts": ["brand/naming-candidates.md", "brand/naming-decision.md"]
+        },
+        {
+          "id": "1.2",
+          "name": "Achat domaines & Setup DNS",
+          "status": "NOT_STARTED",
+          "progress": 0,
+          "dependencies": ["1.1"],
+          "subtasks": [
+            { "id": "1.2.1", "name": "Achat domaine principal", "status": "NOT_STARTED" },
+            { "id": "1.2.2", "name": "Domaines secondaires", "status": "NOT_STARTED" },
+            { "id": "1.2.3", "name": "Configuration DNS", "status": "NOT_STARTED" },
+            { "id": "1.2.4", "name": "Email professionnel", "status": "NOT_STARTED" },
+            { "id": "1.2.5", "name": "SPF/DKIM/DMARC", "status": "NOT_STARTED" }
+          ],
+          "artefacts": ["infra/dns-config.md", "infra/email-setup.md"]
+        },
+        {
+          "id": "1.3",
+          "name": "Identité visuelle",
+          "status": "NOT_STARTED",
+          "progress": 0,
+          "dependencies": ["1.1"],
+          "subtasks": [
+            { "id": "1.3.1", "name": "Brief créatif", "status": "NOT_STARTED" },
+            { "id": "1.3.2", "name": "Palette de couleurs", "status": "NOT_STARTED" },
+            { "id": "1.3.3", "name": "Typographies", "status": "NOT_STARTED" },
+            { "id": "1.3.4", "name": "Logo", "status": "NOT_STARTED" },
+            { "id": "1.3.5", "name": "Design tokens", "status": "NOT_STARTED" },
+            { "id": "1.3.6", "name": "Charte graphique", "status": "NOT_STARTED" }
+          ],
+          "artefacts": ["brand/colors.md", "brand/typography.md", "brand/logo/", "brand/design-tokens.json", "brand/brand-guidelines.pdf"]
+        },
+        {
+          "id": "1.4",
+          "name": "Tone of Voice & Copywriting",
+          "status": "NOT_STARTED",
+          "progress": 0,
+          "dependencies": ["1.1"],
+          "subtasks": [
+            { "id": "1.4.1", "name": "Définition du ton", "status": "NOT_STARTED" },
+            { "id": "1.4.2", "name": "Glossaire produit", "status": "NOT_STARTED" },
+            { "id": "1.4.3", "name": "Templates communication", "status": "NOT_STARTED" },
+            { "id": "1.4.4", "name": "Guidelines rédactionnelles", "status": "NOT_STARTED" }
+          ],
+          "artefacts": ["brand/tone-of-voice.md", "brand/glossary.md", "brand/copy-templates.md"]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Fondations Juridiques",
+      "status": "NOT_STARTED",
+      "modules": [
+        {
+          "id": "2.1",
+          "name": "Structure juridique",
+          "status": "NOT_STARTED",
+          "progress": 0,
+          "dependencies": ["0.4"],
+          "subtasks": [
+            { "id": "2.1.1", "name": "Choix forme juridique", "status": "NOT_STARTED" },
+            { "id": "2.1.2", "name": "Rédaction statuts", "status": "NOT_STARTED" },
+            { "id": "2.1.3", "name": "Pacte d'associés", "status": "NOT_STARTED" },
+            { "id": "2.1.4", "name": "Immatriculation", "status": "NOT_STARTED" },
+            { "id": "2.1.5", "name": "Compte bancaire", "status": "NOT_STARTED" },
+            { "id": "2.1.6", "name": "Assurances", "status": "NOT_STARTED" }
+          ],
+          "artefacts": ["legal/statuts-draft.md", "legal/pacte-associes-draft.md", "legal/immatriculation-guide.md"]
+        },
+        {
+          "id": "2.2",
+          "name": "CGV",
+          "status": "NOT_STARTED",
+          "progress": 0,
+          "dependencies": ["0.3"],
+          "subtasks": [
+            { "id": "2.2.1", "name": "Obligations légales par marché", "status": "NOT_STARTED" },
+            { "id": "2.2.2", "name": "Rédaction CGV SaaS", "status": "NOT_STARTED" },
+            { "id": "2.2.3", "name": "Adaptation par marché", "status": "NOT_STARTED" },
+            { "id": "2.2.4", "name": "Versioning CGV", "status": "NOT_STARTED" }
+          ],
+          "artefacts": ["legal/cgv-fr.md", "legal/cgv-en.md"]
+        },
+        {
+          "id": "2.3",
+          "name": "CGU",
+          "status": "NOT_STARTED",
+          "progress": 0,
+          "dependencies": ["0.3"],
+          "subtasks": [
+            { "id": "2.3.1", "name": "Rédaction CGU", "status": "NOT_STARTED" },
+            { "id": "2.3.2", "name": "Politique contenu", "status": "NOT_STARTED" },
+            { "id": "2.3.3", "name": "Règles communautaires", "status": "NOT_STARTED" }
+          ],
+          "artefacts": ["legal/cgu-fr.md", "legal/cgu-en.md"]
+        },
+        {
+          "id": "2.4",
+          "name": "RGPD / Confidentialité",
+          "status": "NOT_STARTED",
+          "progress": 0,
+          "dependencies": ["2.1"],
+          "subtasks": [
+            { "id": "2.4.1", "name": "Mapping données personnelles", "status": "NOT_STARTED" },
+            { "id": "2.4.2", "name": "Registre des traitements", "status": "NOT_STARTED" },
+            { "id": "2.4.3", "name": "Politique de confidentialité", "status": "NOT_STARTED" },
+            { "id": "2.4.4", "name": "Bandeau cookies", "status": "NOT_STARTED" },
+            { "id": "2.4.5", "name": "Procédure DSAR", "status": "NOT_STARTED" },
+            { "id": "2.4.6", "name": "DPIA", "status": "NOT_STARTED" },
+            { "id": "2.4.7", "name": "Conformité CCPA", "status": "NOT_STARTED" }
+          ],
+          "artefacts": ["legal/privacy-policy-fr.md", "legal/privacy-policy-en.md", "legal/data-registry.md", "legal/dsar-process.md"]
+        },
+        {
+          "id": "2.5",
+          "name": "Contrats & Templates",
+          "status": "NOT_STARTED",
+          "progress": 0,
+          "dependencies": ["2.2"],
+          "subtasks": [
+            { "id": "2.5.1", "name": "Contrat SaaS", "status": "NOT_STARTED" },
+            { "id": "2.5.2", "name": "Contrat freelance", "status": "NOT_STARTED" },
+            { "id": "2.5.3", "name": "NDA", "status": "NOT_STARTED" },
+            { "id": "2.5.4", "name": "Contrat de travail", "status": "NOT_STARTED" },
+            { "id": "2.5.5", "name": "BSPCE", "status": "NOT_STARTED" },
+            { "id": "2.5.6", "name": "Term sheet", "status": "NOT_STARTED" }
+          ],
+          "artefacts": ["legal/contracts/"]
+        },
+        {
+          "id": "2.6",
+          "name": "Mentions Légales",
+          "status": "NOT_STARTED",
+          "progress": 0,
+          "dependencies": ["2.1"],
+          "subtasks": [
+            { "id": "2.6.1", "name": "Mentions légales site", "status": "NOT_STARTED" },
+            { "id": "2.6.2", "name": "Mentions légales app", "status": "NOT_STARTED" },
+            { "id": "2.6.3", "name": "Crédits et attributions", "status": "NOT_STARTED" }
+          ],
+          "artefacts": ["legal/mentions-legales.md"]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Infrastructure & Architecture",
+      "status": "NOT_STARTED",
+      "modules": [
+        {
+          "id": "3.1",
+          "name": "Architecture technique",
+          "status": "NOT_STARTED",
+          "progress": 0,
+          "dependencies": ["0.3"],
+          "subtasks": [
+            { "id": "3.1.1", "name": "Choix stack technique", "status": "NOT_STARTED" },
+            { "id": "3.1.2", "name": "Architecture diagram", "status": "NOT_STARTED" },
+            { "id": "3.1.3", "name": "API design", "status": "NOT_STARTED" },
+            { "id": "3.1.4", "name": "Database schema", "status": "NOT_STARTED" },
+            { "id": "3.1.5", "name": "Event architecture", "status": "NOT_STARTED" },
+            { "id": "3.1.6", "name": "Security architecture", "status": "NOT_STARTED" }
+          ],
+          "artefacts": ["docs/architecture.md", "docs/api-design.md", "docs/db-schema.md"]
+        },
+        {
+          "id": "3.2",
+          "name": "Setup projet",
+          "status": "NOT_STARTED",
+          "progress": 0,
+          "dependencies": ["3.1"],
+          "subtasks": [
+            { "id": "3.2.1", "name": "Init repository Git", "status": "NOT_STARTED" },
+            { "id": "3.2.2", "name": "Monorepo setup", "status": "NOT_STARTED" },
+            { "id": "3.2.3", "name": "Structure dossiers", "status": "NOT_STARTED" },
+            { "id": "3.2.4", "name": "Config TS/lint/format", "status": "NOT_STARTED" },
+            { "id": "3.2.5", "name": "Config testing", "status": "NOT_STARTED" },
+            { "id": "3.2.6", "name": "Husky + lint-staged", "status": "NOT_STARTED" },
+            { "id": "3.2.7", "name": "Conventional commits", "status": "NOT_STARTED" },
+            { "id": "3.2.8", "name": "Changelog automatisé", "status": "NOT_STARTED" }
+          ],
+          "artefacts": []
+        },
+        {
+          "id": "3.3",
+          "name": "CI/CD Pipeline",
+          "status": "NOT_STARTED",
+          "progress": 0,
+          "dependencies": ["3.2"],
+          "subtasks": [
+            { "id": "3.3.1", "name": "GitHub Actions workflows", "status": "NOT_STARTED" },
+            { "id": "3.3.2", "name": "Branch protection", "status": "NOT_STARTED" },
+            { "id": "3.3.3", "name": "Semantic versioning", "status": "NOT_STARTED" },
+            { "id": "3.3.4", "name": "Docker config", "status": "NOT_STARTED" },
+            { "id": "3.3.5", "name": "IaC", "status": "NOT_STARTED" }
+          ],
+          "artefacts": [".github/workflows/", "Dockerfile"]
+        },
+        {
+          "id": "3.4",
+          "name": "Environnements",
+          "status": "NOT_STARTED",
+          "progress": 0,
+          "dependencies": ["3.2"],
+          "subtasks": [
+            { "id": "3.4.1", "name": "Dev local", "status": "NOT_STARTED" },
+            { "id": "3.4.2", "name": "Staging", "status": "NOT_STARTED" },
+            { "id": "3.4.3", "name": "Production", "status": "NOT_STARTED" },
+            { "id": "3.4.4", "name": "Env variables schema", "status": "NOT_STARTED" },
+            { "id": "3.4.5", "name": "Secrets management", "status": "NOT_STARTED" }
+          ],
+          "artefacts": [".env.example", "docs/environments.md"]
+        },
+        {
+          "id": "3.5",
+          "name": "Observabilité",
+          "status": "NOT_STARTED",
+          "progress": 0,
+          "dependencies": ["3.3"],
+          "subtasks": [
+            { "id": "3.5.1", "name": "Logging structuré", "status": "NOT_STARTED" },
+            { "id": "3.5.2", "name": "Error tracking", "status": "NOT_STARTED" },
+            { "id": "3.5.3", "name": "APM", "status": "NOT_STARTED" },
+            { "id": "3.5.4", "name": "Uptime monitoring", "status": "NOT_STARTED" },
+            { "id": "3.5.5", "name": "Alerting", "status": "NOT_STARTED" },
+            { "id": "3.5.6", "name": "Status page", "status": "NOT_STARTED" }
+          ],
+          "artefacts": ["docs/observability.md"]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Développement Produit (MVP)",
+      "status": "NOT_STARTED",
+      "modules": [
+        { "id": "4.1", "name": "Auth & Utilisateurs", "status": "NOT_STARTED", "progress": 0, "dependencies": ["3.2"], "subtasks": [
+          { "id": "4.1.1", "name": "Inscription", "status": "NOT_STARTED" },
+          { "id": "4.1.2", "name": "Connexion/Déconnexion", "status": "NOT_STARTED" },
+          { "id": "4.1.3", "name": "Password reset", "status": "NOT_STARTED" },
+          { "id": "4.1.4", "name": "Email verification", "status": "NOT_STARTED" },
+          { "id": "4.1.5", "name": "Profil CRUD", "status": "NOT_STARTED" },
+          { "id": "4.1.6", "name": "Avatar upload", "status": "NOT_STARTED" },
+          { "id": "4.1.7", "name": "Sessions JWT/cookies", "status": "NOT_STARTED" },
+          { "id": "4.1.8", "name": "2FA/MFA", "status": "NOT_STARTED" },
+          { "id": "4.1.9", "name": "Rate limiting", "status": "NOT_STARTED" },
+          { "id": "4.1.10", "name": "Tests unitaires auth", "status": "NOT_STARTED" },
+          { "id": "4.1.11", "name": "Tests E2E auth", "status": "NOT_STARTED" }
+        ]},
+        { "id": "4.2", "name": "Multi-tenancy & Organisations", "status": "NOT_STARTED", "progress": 0, "dependencies": ["4.1"], "subtasks": [
+          { "id": "4.2.1", "name": "Création organisation", "status": "NOT_STARTED" },
+          { "id": "4.2.2", "name": "Invitation membres", "status": "NOT_STARTED" },
+          { "id": "4.2.3", "name": "RBAC", "status": "NOT_STARTED" },
+          { "id": "4.2.4", "name": "Gestion membres", "status": "NOT_STARTED" },
+          { "id": "4.2.5", "name": "Isolation données", "status": "NOT_STARTED" },
+          { "id": "4.2.6", "name": "Switch organisations", "status": "NOT_STARTED" },
+          { "id": "4.2.7", "name": "Settings organisation", "status": "NOT_STARTED" },
+          { "id": "4.2.8", "name": "Audit log", "status": "NOT_STARTED" },
+          { "id": "4.2.9", "name": "SSO SAML/OIDC", "status": "NOT_STARTED" },
+          { "id": "4.2.10", "name": "Tests multi-tenancy", "status": "NOT_STARTED" }
+        ]},
+        { "id": "4.3", "name": "Core Features", "status": "NOT_STARTED", "progress": 0, "dependencies": ["4.1"], "subtasks": [
+          { "id": "4.3.1", "name": "User stories MVP", "status": "NOT_STARTED" },
+          { "id": "4.3.2", "name": "Priorisation MoSCoW", "status": "NOT_STARTED" },
+          { "id": "4.3.3", "name": "Développement features", "status": "NOT_STARTED" },
+          { "id": "4.3.4", "name": "Feature flags", "status": "NOT_STARTED" },
+          { "id": "4.3.5", "name": "API versioning", "status": "NOT_STARTED" }
+        ]},
+        { "id": "4.4", "name": "Billing & Subscriptions", "status": "NOT_STARTED", "progress": 0, "dependencies": ["4.1"], "subtasks": [
+          { "id": "4.4.1", "name": "Intégration Stripe", "status": "NOT_STARTED" },
+          { "id": "4.4.2", "name": "Plans et pricing", "status": "NOT_STARTED" },
+          { "id": "4.4.3", "name": "Trial management", "status": "NOT_STARTED" },
+          { "id": "4.4.4", "name": "Limites par plan", "status": "NOT_STARTED" },
+          { "id": "4.4.5", "name": "Factures et reçus", "status": "NOT_STARTED" },
+          { "id": "4.4.6", "name": "Dunning", "status": "NOT_STARTED" },
+          { "id": "4.4.7", "name": "Proration", "status": "NOT_STARTED" },
+          { "id": "4.4.8", "name": "Coupons", "status": "NOT_STARTED" },
+          { "id": "4.4.9", "name": "Tax handling", "status": "NOT_STARTED" },
+          { "id": "4.4.10", "name": "Tests billing", "status": "NOT_STARTED" }
+        ]},
+        { "id": "4.5", "name": "Notifications", "status": "NOT_STARTED", "progress": 0, "dependencies": ["4.3"], "subtasks": [
+          { "id": "4.5.1", "name": "Notifications in-app", "status": "NOT_STARTED" },
+          { "id": "4.5.2", "name": "Emails transactionnels", "status": "NOT_STARTED" },
+          { "id": "4.5.3", "name": "Push notifications", "status": "NOT_STARTED" },
+          { "id": "4.5.4", "name": "Webhooks outgoing", "status": "NOT_STARTED" },
+          { "id": "4.5.5", "name": "Préférences notifications", "status": "NOT_STARTED" },
+          { "id": "4.5.6", "name": "Tests notifications", "status": "NOT_STARTED" }
+        ]},
+        { "id": "4.6", "name": "File Management", "status": "NOT_STARTED", "progress": 0, "dependencies": ["4.3"], "subtasks": [
+          { "id": "4.6.1", "name": "Upload fichiers", "status": "NOT_STARTED" },
+          { "id": "4.6.2", "name": "Image processing", "status": "NOT_STARTED" },
+          { "id": "4.6.3", "name": "File preview", "status": "NOT_STARTED" },
+          { "id": "4.6.4", "name": "Download/Export", "status": "NOT_STARTED" },
+          { "id": "4.6.5", "name": "Storage quotas", "status": "NOT_STARTED" },
+          { "id": "4.6.6", "name": "Virus scanning", "status": "NOT_STARTED" }
+        ]},
+        { "id": "4.7", "name": "Search & Filtering", "status": "NOT_STARTED", "progress": 0, "dependencies": ["4.3"], "subtasks": [
+          { "id": "4.7.1", "name": "Full-text search", "status": "NOT_STARTED" },
+          { "id": "4.7.2", "name": "Filtres avancés", "status": "NOT_STARTED" },
+          { "id": "4.7.3", "name": "Tri et pagination", "status": "NOT_STARTED" },
+          { "id": "4.7.4", "name": "Search indexing", "status": "NOT_STARTED" },
+          { "id": "4.7.5", "name": "Autocomplete", "status": "NOT_STARTED" }
+        ]},
+        { "id": "4.8", "name": "i18n", "status": "NOT_STARTED", "progress": 0, "dependencies": ["4.3"], "subtasks": [
+          { "id": "4.8.1", "name": "Setup i18n", "status": "NOT_STARTED" },
+          { "id": "4.8.2", "name": "Extraction clés", "status": "NOT_STARTED" },
+          { "id": "4.8.3", "name": "Traductions FR/EN", "status": "NOT_STARTED" },
+          { "id": "4.8.4", "name": "Pluralization/dates/devises", "status": "NOT_STARTED" },
+          { "id": "4.8.5", "name": "RTL support", "status": "NOT_STARTED" },
+          { "id": "4.8.6", "name": "URL localization", "status": "NOT_STARTED" }
+        ]},
+        { "id": "4.9", "name": "Accessibility", "status": "NOT_STARTED", "progress": 0, "dependencies": ["4.3"], "subtasks": [
+          { "id": "4.9.1", "name": "WCAG 2.1 AA", "status": "NOT_STARTED" },
+          { "id": "4.9.2", "name": "Semantic HTML", "status": "NOT_STARTED" },
+          { "id": "4.9.3", "name": "Keyboard navigation", "status": "NOT_STARTED" },
+          { "id": "4.9.4", "name": "Screen reader (ARIA)", "status": "NOT_STARTED" },
+          { "id": "4.9.5", "name": "Color contrast", "status": "NOT_STARTED" },
+          { "id": "4.9.6", "name": "Tests a11y", "status": "NOT_STARTED" }
+        ]},
+        { "id": "4.10", "name": "Performance", "status": "NOT_STARTED", "progress": 0, "dependencies": ["4.3"], "subtasks": [
+          { "id": "4.10.1", "name": "Core Web Vitals", "status": "NOT_STARTED" },
+          { "id": "4.10.2", "name": "Code splitting", "status": "NOT_STARTED" },
+          { "id": "4.10.3", "name": "Image optimization", "status": "NOT_STARTED" },
+          { "id": "4.10.4", "name": "Caching strategy", "status": "NOT_STARTED" },
+          { "id": "4.10.5", "name": "DB query optimization", "status": "NOT_STARTED" },
+          { "id": "4.10.6", "name": "Bundle size", "status": "NOT_STARTED" },
+          { "id": "4.10.7", "name": "Lighthouse CI", "status": "NOT_STARTED" }
+        ]},
+        { "id": "4.11", "name": "Security Hardening", "status": "NOT_STARTED", "progress": 0, "dependencies": ["4.3"], "subtasks": [
+          { "id": "4.11.1", "name": "OWASP Top 10", "status": "NOT_STARTED" },
+          { "id": "4.11.2", "name": "Input validation (Zod)", "status": "NOT_STARTED" },
+          { "id": "4.11.3", "name": "CSRF protection", "status": "NOT_STARTED" },
+          { "id": "4.11.4", "name": "XSS prevention", "status": "NOT_STARTED" },
+          { "id": "4.11.5", "name": "SQL injection prevention", "status": "NOT_STARTED" },
+          { "id": "4.11.6", "name": "Rate limiting global", "status": "NOT_STARTED" },
+          { "id": "4.11.7", "name": "Security headers", "status": "NOT_STARTED" },
+          { "id": "4.11.8", "name": "Dependency scanning", "status": "NOT_STARTED" },
+          { "id": "4.11.9", "name": "Secret scanning", "status": "NOT_STARTED" },
+          { "id": "4.11.10", "name": "Pentest checklist", "status": "NOT_STARTED" }
+        ]}
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Backoffice & Admin",
+      "status": "NOT_STARTED",
+      "modules": [
+        { "id": "5.1", "name": "Admin Dashboard", "status": "NOT_STARTED", "progress": 0, "dependencies": ["4.2"], "subtasks": [
+          { "id": "5.1.1", "name": "KPIs temps réel", "status": "NOT_STARTED" },
+          { "id": "5.1.2", "name": "Graphiques tendances", "status": "NOT_STARTED" },
+          { "id": "5.1.3", "name": "Filtres période", "status": "NOT_STARTED" }
+        ]},
+        { "id": "5.2", "name": "User Management Admin", "status": "NOT_STARTED", "progress": 0, "dependencies": ["5.1"], "subtasks": [
+          { "id": "5.2.1", "name": "Liste utilisateurs", "status": "NOT_STARTED" },
+          { "id": "5.2.2", "name": "Détail utilisateur", "status": "NOT_STARTED" },
+          { "id": "5.2.3", "name": "Impersonation", "status": "NOT_STARTED" },
+          { "id": "5.2.4", "name": "Ban/Suspend/Delete", "status": "NOT_STARTED" },
+          { "id": "5.2.5", "name": "Reset password admin", "status": "NOT_STARTED" },
+          { "id": "5.2.6", "name": "Export CSV/Excel", "status": "NOT_STARTED" },
+          { "id": "5.2.7", "name": "Bulk actions", "status": "NOT_STARTED" }
+        ]},
+        { "id": "5.3", "name": "Billing Admin", "status": "NOT_STARTED", "progress": 0, "dependencies": ["4.4"], "subtasks": [
+          { "id": "5.3.1", "name": "Abonnements actifs", "status": "NOT_STARTED" },
+          { "id": "5.3.2", "name": "Revenue analytics", "status": "NOT_STARTED" },
+          { "id": "5.3.3", "name": "Gestion manuelle", "status": "NOT_STARTED" },
+          { "id": "5.3.4", "name": "Historique transactions", "status": "NOT_STARTED" },
+          { "id": "5.3.5", "name": "Coupons management", "status": "NOT_STARTED" },
+          { "id": "5.3.6", "name": "Rapports comptables", "status": "NOT_STARTED" }
+        ]},
+        { "id": "5.4", "name": "Content Management", "status": "NOT_STARTED", "progress": 0, "dependencies": ["4.3"], "subtasks": [
+          { "id": "5.4.1", "name": "Blog CMS", "status": "NOT_STARTED" },
+          { "id": "5.4.2", "name": "Pages statiques", "status": "NOT_STARTED" },
+          { "id": "5.4.3", "name": "Changelogs", "status": "NOT_STARTED" },
+          { "id": "5.4.4", "name": "Help center", "status": "NOT_STARTED" },
+          { "id": "5.4.5", "name": "Modération contenu", "status": "NOT_STARTED" }
+        ]},
+        { "id": "5.5", "name": "Feature Flags & Config", "status": "NOT_STARTED", "progress": 0, "dependencies": ["4.3"], "subtasks": [
+          { "id": "5.5.1", "name": "Feature flags", "status": "NOT_STARTED" },
+          { "id": "5.5.2", "name": "Remote config", "status": "NOT_STARTED" },
+          { "id": "5.5.3", "name": "A/B testing", "status": "NOT_STARTED" },
+          { "id": "5.5.4", "name": "Rollout progressif", "status": "NOT_STARTED" }
+        ]},
+        { "id": "5.6", "name": "Support & Helpdesk", "status": "NOT_STARTED", "progress": 0, "dependencies": ["4.3"], "subtasks": [
+          { "id": "5.6.1", "name": "Système tickets", "status": "NOT_STARTED" },
+          { "id": "5.6.2", "name": "Live chat", "status": "NOT_STARTED" },
+          { "id": "5.6.3", "name": "FAQ dynamique", "status": "NOT_STARTED" },
+          { "id": "5.6.4", "name": "Chatbot IA", "status": "NOT_STARTED" },
+          { "id": "5.6.5", "name": "CSAT/NPS", "status": "NOT_STARTED" },
+          { "id": "5.6.6", "name": "SLA tracking", "status": "NOT_STARTED" }
+        ]}
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Contenu & SEO",
+      "status": "NOT_STARTED",
+      "modules": [
+        { "id": "6.1", "name": "Site Marketing", "status": "NOT_STARTED", "progress": 0, "dependencies": ["1.3", "1.4"], "subtasks": [
+          { "id": "6.1.1", "name": "Homepage", "status": "NOT_STARTED" },
+          { "id": "6.1.2", "name": "Page Pricing", "status": "NOT_STARTED" },
+          { "id": "6.1.3", "name": "Pages Features", "status": "NOT_STARTED" },
+          { "id": "6.1.4", "name": "Page About", "status": "NOT_STARTED" },
+          { "id": "6.1.5", "name": "Page Contact", "status": "NOT_STARTED" },
+          { "id": "6.1.6", "name": "Page Careers", "status": "NOT_STARTED" },
+          { "id": "6.1.7", "name": "Page Press", "status": "NOT_STARTED" },
+          { "id": "6.1.8", "name": "Pages légales", "status": "NOT_STARTED" },
+          { "id": "6.1.9", "name": "Changelog", "status": "NOT_STARTED" },
+          { "id": "6.1.10", "name": "Status page", "status": "NOT_STARTED" },
+          { "id": "6.1.11", "name": "Trust Center", "status": "NOT_STARTED" },
+          { "id": "6.1.12", "name": "Pages Comparaison", "status": "NOT_STARTED" },
+          { "id": "6.1.13", "name": "Pages Cas d'usage", "status": "NOT_STARTED" }
+        ]},
+        { "id": "6.2", "name": "SEO Technique", "status": "NOT_STARTED", "progress": 0, "dependencies": ["6.1"], "subtasks": [
+          { "id": "6.2.1", "name": "Meta tags", "status": "NOT_STARTED" },
+          { "id": "6.2.2", "name": "OpenGraph/Twitter Cards", "status": "NOT_STARTED" },
+          { "id": "6.2.3", "name": "Schema.org JSON-LD", "status": "NOT_STARTED" },
+          { "id": "6.2.4", "name": "Sitemap.xml", "status": "NOT_STARTED" },
+          { "id": "6.2.5", "name": "Robots.txt", "status": "NOT_STARTED" },
+          { "id": "6.2.6", "name": "Canonical URLs", "status": "NOT_STARTED" },
+          { "id": "6.2.7", "name": "Hreflang", "status": "NOT_STARTED" },
+          { "id": "6.2.8", "name": "Core Web Vitals SEO", "status": "NOT_STARTED" },
+          { "id": "6.2.9", "name": "Mobile-first", "status": "NOT_STARTED" },
+          { "id": "6.2.10", "name": "Internal linking", "status": "NOT_STARTED" }
+        ]},
+        { "id": "6.3", "name": "SEO Contenu", "status": "NOT_STARTED", "progress": 0, "dependencies": ["6.2"], "subtasks": [
+          { "id": "6.3.1", "name": "Keyword research", "status": "NOT_STARTED" },
+          { "id": "6.3.2", "name": "Content strategy", "status": "NOT_STARTED" },
+          { "id": "6.3.3", "name": "Editorial calendar", "status": "NOT_STARTED" },
+          { "id": "6.3.4", "name": "Articles blog (10+)", "status": "NOT_STARTED" },
+          { "id": "6.3.5", "name": "Guides/Tutorials", "status": "NOT_STARTED" },
+          { "id": "6.3.6", "name": "Glossaire industrie", "status": "NOT_STARTED" },
+          { "id": "6.3.7", "name": "Case studies templates", "status": "NOT_STARTED" }
+        ]},
+        { "id": "6.4", "name": "SEO Off-page", "status": "NOT_STARTED", "progress": 0, "dependencies": ["6.2"], "subtasks": [
+          { "id": "6.4.1", "name": "Stratégie backlinks", "status": "NOT_STARTED" },
+          { "id": "6.4.2", "name": "Annuaires SaaS (50+)", "status": "NOT_STARTED" },
+          { "id": "6.4.3", "name": "Guest posting", "status": "NOT_STARTED" },
+          { "id": "6.4.4", "name": "Digital PR", "status": "NOT_STARTED" },
+          { "id": "6.4.5", "name": "Social signals", "status": "NOT_STARTED" }
+        ]},
+        { "id": "6.5", "name": "Analytics & Tracking", "status": "NOT_STARTED", "progress": 0, "dependencies": ["6.1"], "subtasks": [
+          { "id": "6.5.1", "name": "GA4/Plausible/PostHog", "status": "NOT_STARTED" },
+          { "id": "6.5.2", "name": "Search Console", "status": "NOT_STARTED" },
+          { "id": "6.5.3", "name": "Conversion tracking", "status": "NOT_STARTED" },
+          { "id": "6.5.4", "name": "Event tracking plan", "status": "NOT_STARTED" },
+          { "id": "6.5.5", "name": "UTM strategy", "status": "NOT_STARTED" },
+          { "id": "6.5.6", "name": "Dashboard custom", "status": "NOT_STARTED" },
+          { "id": "6.5.7", "name": "RGPD tracking", "status": "NOT_STARTED" }
+        ]}
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Go-To-Market",
+      "status": "NOT_STARTED",
+      "modules": [
+        { "id": "7.1", "name": "GTM Strategy", "status": "NOT_STARTED", "progress": 0, "dependencies": ["0.2"], "subtasks": [
+          { "id": "7.1.1", "name": "Positionnement final", "status": "NOT_STARTED" },
+          { "id": "7.1.2", "name": "Messages par persona", "status": "NOT_STARTED" },
+          { "id": "7.1.3", "name": "Canaux acquisition", "status": "NOT_STARTED" },
+          { "id": "7.1.4", "name": "Funnel AARRR", "status": "NOT_STARTED" },
+          { "id": "7.1.5", "name": "Métriques cibles", "status": "NOT_STARTED" },
+          { "id": "7.1.6", "name": "Budget marketing", "status": "NOT_STARTED" }
+        ]},
+        { "id": "7.2", "name": "Email Marketing", "status": "NOT_STARTED", "progress": 0, "dependencies": ["6.1"], "subtasks": [
+          { "id": "7.2.1", "name": "Setup outil", "status": "NOT_STARTED" },
+          { "id": "7.2.2", "name": "Séquences onboarding", "status": "NOT_STARTED" },
+          { "id": "7.2.3", "name": "Nurturing leads", "status": "NOT_STARTED" },
+          { "id": "7.2.4", "name": "Newsletter", "status": "NOT_STARTED" },
+          { "id": "7.2.5", "name": "Win-back sequences", "status": "NOT_STARTED" },
+          { "id": "7.2.6", "name": "Transactional review", "status": "NOT_STARTED" },
+          { "id": "7.2.7", "name": "Deliverability", "status": "NOT_STARTED" }
+        ]},
+        { "id": "7.3", "name": "Social Media", "status": "NOT_STARTED", "progress": 0, "dependencies": ["1.3"], "subtasks": [
+          { "id": "7.3.1", "name": "Création comptes", "status": "NOT_STARTED" },
+          { "id": "7.3.2", "name": "Branding unifié", "status": "NOT_STARTED" },
+          { "id": "7.3.3", "name": "Content calendar", "status": "NOT_STARTED" },
+          { "id": "7.3.4", "name": "Templates posts", "status": "NOT_STARTED" },
+          { "id": "7.3.5", "name": "Stratégie hashtags", "status": "NOT_STARTED" },
+          { "id": "7.3.6", "name": "Community building", "status": "NOT_STARTED" },
+          { "id": "7.3.7", "name": "Social listening", "status": "NOT_STARTED" }
+        ]},
+        { "id": "7.4", "name": "Paid Acquisition", "status": "NOT_STARTED", "progress": 0, "dependencies": ["6.1"], "subtasks": [
+          { "id": "7.4.1", "name": "Google Ads", "status": "NOT_STARTED" },
+          { "id": "7.4.2", "name": "LinkedIn Ads", "status": "NOT_STARTED" },
+          { "id": "7.4.3", "name": "Meta Ads", "status": "NOT_STARTED" },
+          { "id": "7.4.4", "name": "Retargeting", "status": "NOT_STARTED" },
+          { "id": "7.4.5", "name": "Landing pages campagnes", "status": "NOT_STARTED" },
+          { "id": "7.4.6", "name": "A/B testing", "status": "NOT_STARTED" },
+          { "id": "7.4.7", "name": "Budget allocation", "status": "NOT_STARTED" },
+          { "id": "7.4.8", "name": "Tracking attribution", "status": "NOT_STARTED" }
+        ]},
+        { "id": "7.5", "name": "Product Hunt Launch", "status": "NOT_STARTED", "progress": 0, "dependencies": ["6.1"], "subtasks": [
+          { "id": "7.5.1", "name": "Profil PH", "status": "NOT_STARTED" },
+          { "id": "7.5.2", "name": "Assets", "status": "NOT_STARTED" },
+          { "id": "7.5.3", "name": "Tagline + description", "status": "NOT_STARTED" },
+          { "id": "7.5.4", "name": "First comment", "status": "NOT_STARTED" },
+          { "id": "7.5.5", "name": "Hunter outreach", "status": "NOT_STARTED" },
+          { "id": "7.5.6", "name": "Community mobilization", "status": "NOT_STARTED" },
+          { "id": "7.5.7", "name": "Day-of playbook", "status": "NOT_STARTED" },
+          { "id": "7.5.8", "name": "Follow-up strategy", "status": "NOT_STARTED" }
+        ]},
+        { "id": "7.6", "name": "PR & Communications", "status": "NOT_STARTED", "progress": 0, "dependencies": ["1.4"], "subtasks": [
+          { "id": "7.6.1", "name": "Communiqué de presse", "status": "NOT_STARTED" },
+          { "id": "7.6.2", "name": "Media kit", "status": "NOT_STARTED" },
+          { "id": "7.6.3", "name": "Liste journalistes", "status": "NOT_STARTED" },
+          { "id": "7.6.4", "name": "Pitch templates", "status": "NOT_STARTED" },
+          { "id": "7.6.5", "name": "LinkedIn strategy fondateurs", "status": "NOT_STARTED" },
+          { "id": "7.6.6", "name": "Talking points podcast", "status": "NOT_STARTED" }
+        ]},
+        { "id": "7.7", "name": "Partnerships & Integrations", "status": "NOT_STARTED", "progress": 0, "dependencies": ["4.3"], "subtasks": [
+          { "id": "7.7.1", "name": "Partenaires stratégiques", "status": "NOT_STARTED" },
+          { "id": "7.7.2", "name": "API publique", "status": "NOT_STARTED" },
+          { "id": "7.7.3", "name": "Marketplace listings", "status": "NOT_STARTED" },
+          { "id": "7.7.4", "name": "Affiliate/Referral program", "status": "NOT_STARTED" },
+          { "id": "7.7.5", "name": "Co-marketing", "status": "NOT_STARTED" }
+        ]}
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Lancement & Distribution",
+      "status": "NOT_STARTED",
+      "modules": [
+        { "id": "8.1", "name": "Pre-Launch Checklist", "status": "NOT_STARTED", "progress": 0, "dependencies": ["4.11"], "subtasks": [
+          { "id": "8.1.1", "name": "QA complète", "status": "NOT_STARTED" },
+          { "id": "8.1.2", "name": "Revue légale", "status": "NOT_STARTED" },
+          { "id": "8.1.3", "name": "Revue SEO", "status": "NOT_STARTED" },
+          { "id": "8.1.4", "name": "Monitoring en place", "status": "NOT_STARTED" },
+          { "id": "8.1.5", "name": "Backup & Recovery", "status": "NOT_STARTED" },
+          { "id": "8.1.6", "name": "Documentation", "status": "NOT_STARTED" }
+        ]},
+        { "id": "8.2", "name": "Deployment Production", "status": "NOT_STARTED", "progress": 0, "dependencies": ["8.1"], "subtasks": [
+          { "id": "8.2.1", "name": "DNS final", "status": "NOT_STARTED" },
+          { "id": "8.2.2", "name": "SSL/TLS", "status": "NOT_STARTED" },
+          { "id": "8.2.3", "name": "CDN config", "status": "NOT_STARTED" },
+          { "id": "8.2.4", "name": "DB migration prod", "status": "NOT_STARTED" },
+          { "id": "8.2.5", "name": "Env variables prod", "status": "NOT_STARTED" },
+          { "id": "8.2.6", "name": "Pipeline final", "status": "NOT_STARTED" },
+          { "id": "8.2.7", "name": "Smoke tests", "status": "NOT_STARTED" },
+          { "id": "8.2.8", "name": "Rollback plan", "status": "NOT_STARTED" }
+        ]},
+        { "id": "8.3", "name": "Launch Day", "status": "NOT_STARTED", "progress": 0, "dependencies": ["8.2"], "subtasks": [
+          { "id": "8.3.1", "name": "Product Hunt submit", "status": "NOT_STARTED" },
+          { "id": "8.3.2", "name": "Social announcements", "status": "NOT_STARTED" },
+          { "id": "8.3.3", "name": "Email waitlist", "status": "NOT_STARTED" },
+          { "id": "8.3.4", "name": "Press release", "status": "NOT_STARTED" },
+          { "id": "8.3.5", "name": "Community posts", "status": "NOT_STARTED" },
+          { "id": "8.3.6", "name": "Founder posts", "status": "NOT_STARTED" },
+          { "id": "8.3.7", "name": "War room monitoring", "status": "NOT_STARTED" }
+        ]}
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Post-Launch & Growth",
+      "status": "NOT_STARTED",
+      "modules": [
+        { "id": "9.1", "name": "Analytics & Reporting", "status": "NOT_STARTED", "progress": 0, "dependencies": ["8.3"], "subtasks": [
+          { "id": "9.1.1", "name": "Weekly metrics review", "status": "NOT_STARTED" },
+          { "id": "9.1.2", "name": "Cohort analysis", "status": "NOT_STARTED" },
+          { "id": "9.1.3", "name": "Funnel analysis", "status": "NOT_STARTED" },
+          { "id": "9.1.4", "name": "Monthly business review", "status": "NOT_STARTED" }
+        ]},
+        { "id": "9.2", "name": "User Feedback Loop", "status": "NOT_STARTED", "progress": 0, "dependencies": ["8.3"], "subtasks": [
+          { "id": "9.2.1", "name": "Feedback widget", "status": "NOT_STARTED" },
+          { "id": "9.2.2", "name": "NPS surveys", "status": "NOT_STARTED" },
+          { "id": "9.2.3", "name": "User interviews", "status": "NOT_STARTED" },
+          { "id": "9.2.4", "name": "Feature request tracking", "status": "NOT_STARTED" },
+          { "id": "9.2.5", "name": "Bug report workflow", "status": "NOT_STARTED" },
+          { "id": "9.2.6", "name": "Roadmap publique", "status": "NOT_STARTED" }
+        ]},
+        { "id": "9.3", "name": "Growth Loops", "status": "NOT_STARTED", "progress": 0, "dependencies": ["8.3"], "subtasks": [
+          { "id": "9.3.1", "name": "Referral program", "status": "NOT_STARTED" },
+          { "id": "9.3.2", "name": "Viral loops", "status": "NOT_STARTED" },
+          { "id": "9.3.3", "name": "Content-led growth", "status": "NOT_STARTED" },
+          { "id": "9.3.4", "name": "Product-led growth", "status": "NOT_STARTED" }
+        ]},
+        { "id": "9.4", "name": "Scaling Preparation", "status": "NOT_STARTED", "progress": 0, "dependencies": ["9.3"], "subtasks": [
+          { "id": "9.4.1", "name": "Load testing", "status": "NOT_STARTED" },
+          { "id": "9.4.2", "name": "DB scaling", "status": "NOT_STARTED" },
+          { "id": "9.4.3", "name": "Cache optimization", "status": "NOT_STARTED" },
+          { "id": "9.4.4", "name": "CDN optimization", "status": "NOT_STARTED" },
+          { "id": "9.4.5", "name": "Cost optimization", "status": "NOT_STARTED" },
+          { "id": "9.4.6", "name": "Team scaling", "status": "NOT_STARTED" },
+          { "id": "9.4.7", "name": "Process documentation", "status": "NOT_STARTED" }
+        ]}
+      ]
+    }
+  ]
+}
