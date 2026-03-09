@@ -1,8 +1,8 @@
 # UNICORNER — Dashboard de Suivi
 
-**Projet :** _(à définir)_
-**Démarré le :** _(à définir)_
-**Dernière mise à jour :** _(auto)_
+**Projet :** Service de facturation pour freelances (FR, B2B)
+**Démarré le :** 2026-03-09
+**Dernière mise à jour :** 2026-03-09T11:00:00Z
 
 ---
 
@@ -10,7 +10,7 @@
 
 | Phase | Nom | Modules | Progression | Statut |
 |-------|-----|---------|-------------|--------|
-| 0 | Discovery & Validation | 4 | 0% | NOT_STARTED |
+| 0 | Discovery & Validation | 4 | ~25% | IN_PROGRESS |
 | 1 | Identité & Branding | 4 | 0% | NOT_STARTED |
 | 2 | Fondations Juridiques | 6 | 0% | NOT_STARTED |
 | 3 | Infrastructure & Architecture | 5 | 0% | NOT_STARTED |
@@ -21,15 +21,15 @@
 | 8 | Lancement & Distribution | 3 | 0% | NOT_STARTED |
 | 9 | Post-Launch & Growth | 4 | 0% | NOT_STARTED |
 
-**Total : 55 modules | 336 sous-tâches | 0% complété**
+**Total : 55 modules | 336 sous-tâches | ~4% complété (2/55 modules)**
 
 ---
 
 ## Détail par Phase
 
 ### Phase 0 — Discovery & Validation
-- [ ] 0.1 Analyse de marché
-- [ ] 0.2 Value Proposition Design
+- [x] 0.1 Analyse de marche — COMPLETED (market-analysis.md, competitors.md, personas.md)
+- [x] 0.2 Value Proposition Design — COMPLETED (value-proposition.md, pitch-deck-draft.md)
 - [ ] 0.3 Business Model Canvas
 - [ ] 0.4 Validation rapide
 
@@ -105,7 +105,10 @@
 ---
 
 ## Blockers Actifs
-_(aucun)_
+- Build Vercel en erreur : Root Directory doit être configuré sur `app`
 
 ## Notes
-_(aucune)_
+- Projet initialise le 2026-03-09
+- Module 0.1 (Analyse de marche) complete le 2026-03-09
+- Module 0.2 (Value Proposition Design) complete le 2026-03-09 — USP : API-first, conformite e-facture native, UX premium
+- Prochain module : 0.3 (Business Model Canvas)
