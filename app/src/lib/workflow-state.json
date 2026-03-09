@@ -47,15 +47,15 @@
         {
           "id": "0.3",
           "name": "Business Model Canvas",
-          "status": "NOT_STARTED",
-          "progress": 0,
+          "status": "COMPLETED",
+          "progress": 100,
           "dependencies": ["0.1", "0.2"],
           "subtasks": [
-            { "id": "0.3.1", "name": "9 blocs BMC", "status": "NOT_STARTED" },
-            { "id": "0.3.2", "name": "Revenue streams", "status": "NOT_STARTED" },
-            { "id": "0.3.3", "name": "Pricing strategy", "status": "NOT_STARTED" },
-            { "id": "0.3.4", "name": "Cost structure", "status": "NOT_STARTED" },
-            { "id": "0.3.5", "name": "Unit economics", "status": "NOT_STARTED" }
+            { "id": "0.3.1", "name": "9 blocs BMC", "status": "COMPLETED", "completed_at": "2026-03-09T14:00:00Z" },
+            { "id": "0.3.2", "name": "Revenue streams", "status": "COMPLETED", "completed_at": "2026-03-09T14:00:00Z" },
+            { "id": "0.3.3", "name": "Pricing strategy", "status": "COMPLETED", "completed_at": "2026-03-09T14:30:00Z" },
+            { "id": "0.3.4", "name": "Cost structure", "status": "COMPLETED", "completed_at": "2026-03-09T14:00:00Z" },
+            { "id": "0.3.5", "name": "Unit economics", "status": "COMPLETED", "completed_at": "2026-03-09T15:00:00Z" }
           ],
           "artefacts": ["docs/business-model.md", "docs/pricing-strategy.md", "docs/unit-economics.md"]
         },

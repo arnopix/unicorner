@@ -2,7 +2,7 @@
 
 **Projet :** Service de facturation pour freelances (FR, B2B)
 **Démarré le :** 2026-03-09
-**Dernière mise à jour :** 2026-03-09T11:00:00Z
+**Dernière mise à jour :** 2026-03-09T15:00:00Z
 
 ---
 
@@ -10,7 +10,7 @@
 
 | Phase | Nom | Modules | Progression | Statut |
 |-------|-----|---------|-------------|--------|
-| 0 | Discovery & Validation | 4 | ~25% | IN_PROGRESS |
+| 0 | Discovery & Validation | 4 | ~75% | IN_PROGRESS |
 | 1 | Identité & Branding | 4 | 0% | NOT_STARTED |
 | 2 | Fondations Juridiques | 6 | 0% | NOT_STARTED |
 | 3 | Infrastructure & Architecture | 5 | 0% | NOT_STARTED |
@@ -21,7 +21,7 @@
 | 8 | Lancement & Distribution | 3 | 0% | NOT_STARTED |
 | 9 | Post-Launch & Growth | 4 | 0% | NOT_STARTED |
 
-**Total : 55 modules | 336 sous-tâches | ~4% complété (2/55 modules)**
+**Total : 55 modules | 336 sous-tâches | ~5% complété (3/55 modules)**
 
 ---
 
@@ -30,7 +30,7 @@
 ### Phase 0 — Discovery & Validation
 - [x] 0.1 Analyse de marche — COMPLETED (market-analysis.md, competitors.md, personas.md)
 - [x] 0.2 Value Proposition Design — COMPLETED (value-proposition.md, pitch-deck-draft.md)
-- [ ] 0.3 Business Model Canvas
+- [x] 0.3 Business Model Canvas — COMPLETED (business-model.md, pricing-strategy.md, unit-economics.md)
 - [ ] 0.4 Validation rapide
 
 ### Phase 1 — Identité & Branding
@@ -111,4 +111,5 @@
 - Projet initialise le 2026-03-09
 - Module 0.1 (Analyse de marche) complete le 2026-03-09
 - Module 0.2 (Value Proposition Design) complete le 2026-03-09 — USP : API-first, conformite e-facture native, UX premium
-- Prochain module : 0.3 (Business Model Canvas)
+- Module 0.3 (Business Model Canvas) complete le 2026-03-09 — BMC 9 blocs, pricing freemium (0/9,90/19,90), unit economics (LTV/CAC 5x, break-even M9-M10)
+- Prochain module : 0.4 (Validation rapide)
